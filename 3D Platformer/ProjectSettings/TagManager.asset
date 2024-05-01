@@ -4,9 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Flag
-  - Fruit
-  - Death
+  - Damage
+  - Coin
+  - CheckPoint
   layers:
   - Default
   - TransparentFX
@@ -14,7 +14,7 @@ TagManager:
   - Ground
   - Water
   - UI
-  - 
+  - Monster
   - 
   - 
   - 

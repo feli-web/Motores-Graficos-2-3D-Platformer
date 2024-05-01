@@ -37,9 +37,8 @@ public class DissapearingPlatforms : MonoBehaviour
     }
     IEnumerator Dissappear()
     {
-        yield return new WaitForSeconds(1);
         Shake();
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(1);
         mr.enabled = false;
         col.enabled = false;
         yield return new WaitForSeconds(2);
